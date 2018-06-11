@@ -1,0 +1,9 @@
+*~
+.idea
+.venv
+GPATH
+GRTAGS
+GTAGS
+tags
+nimcache
+__pycache__
