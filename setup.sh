@@ -27,3 +27,6 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ## fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+## powerline font
+git clone https://github.com/powerline/fonts.git --depth=1 && cd fonts && ./install.sh && cd .. & rm -rf fonts
+fc-cache -vf
