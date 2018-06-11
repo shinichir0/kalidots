@@ -15,8 +15,7 @@ ln -s $HOME/kalidots/git $HOME/.config/git
 zcompile ${HOME}/.zshrc
 
 # apt packages
-sudo apt install zsh neovim tmux xsel git tree curl wget source-highlight ctags global \
-    software-properties-common snapd
+sudo apt install zsh neovim tmux xsel git tree curl wget source-highlight ctags global software-properties-common snapd
 ~/kalidots/nim_build.sh
 pip install neovim
 
